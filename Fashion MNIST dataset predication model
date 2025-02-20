@@ -1,1 +1,8 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import tensorflow as tf
+
+fashion_ds = tf.keras.datasets.fashion_mnist
+(X_train, y_train), (X_test, y_test) = fashion_ds.load_data()
+
 
